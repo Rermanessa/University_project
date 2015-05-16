@@ -1,0 +1,41 @@
+object MainForm: TMainForm
+  Left = 240
+  Height = 461
+  Top = 153
+  Width = 795
+  Caption = 'Alinka - mandarinka'
+  ClientHeight = 461
+  ClientWidth = 795
+  LCLVersion = '1.4.0.4'
+  object ResultPanel: TPanel
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 797
+    TabOrder = 0
+  end
+  object UserGrid: TDrawGrid
+    Left = 32
+    Height = 304
+    Top = 56
+    Width = 304
+    ColCount = 10
+    DefaultColWidth = 30
+    DefaultRowHeight = 30
+    ExtendedSelect = False
+    RowCount = 10
+    TabOrder = 1
+  end
+  object CompGrid: TDrawGrid
+    Left = 464
+    Height = 304
+    Top = 56
+    Width = 304
+    ColCount = 10
+    DefaultColWidth = 30
+    DefaultRowHeight = 30
+    ExtendedSelect = False
+    RowCount = 10
+    TabOrder = 2
+  end
+end
